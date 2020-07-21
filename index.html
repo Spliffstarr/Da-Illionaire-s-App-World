@@ -20,6 +20,9 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/formstyler/jquery.formstyler.css">
+  <link rel="stylesheet" href="assets/formstyler/jquery.formstyler.theme.css">
+  <link rel="stylesheet" href="assets/datepicker/jquery.datetimepicker.min.css">
   <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
@@ -477,24 +480,26 @@
                 <p class="mbr-fonts-style mb-5 align-center display-7">Get helpful information on what’s important to you when choosing your services</p>
                 <div class="form-block">
                     <div data-form-type="formoid">
-                        <!---Formbuilder Form--->
-                        <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="jeY9p9YU8YTN70FbPnWz70AgkT7dmYwmaMXUJ96N3VwAa3ZmWHB6V8M4NsNpUPhmNdvwDU/4CFyAwUNQmkdJLHgPC2q9Ls7ADY3FHl+RSZpWMHYO9Sq/vMcILcFuJvTy.Kh9xrMaS8P5DQ1pnx7iLlkNTXfNs0doR6wsCFpTmehULeAyb5D7TP01N4wq/3UqorGGzuKt3R6qNEfrSnZulmQ5Wh0sJm+kD2JZG/k3y/6ZCmWv7RT48ElekzqxGtCm2">
-                            <div class="row justify-content-center">
-                                <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
-                                <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
-                                </div>
-                            </div>
-                            <div class="dragArea row justify-content-center">
-                                <div class="col-md-6 col-lg-4 mb-4 form-group" data-for="name">
-                                    <input type="text" name="name" placeholder="Your Name" data-form-field="Name" required="required" class="form-control input display-7" id="name-extForm6-q">
-                                </div>
-                                <div class="col-md-6 col-lg-4 mb-4 form-group" data-for="email" draggable="false">
-                                    <input type="text" name="email" placeholder="Email" data-form-field="Email" required="required" class="form-control input display-7" id="email-extForm6-q">
-                                </div>
-                                <div class="col-auto mbr-section-btn mb-4" draggable="false"><button type="submit" class="btn btn-bgr btn-form btn-secondary display-4">SEND MESSAGE</button></div>
-                            </div>
-                        </form><!---Formbuilder Form--->
-                    </div>
+<!--Formbuilder Form-->
+<form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="ebkIEug1AZd0IdAdTmemmTEAZg/XrhIj3BPe8GmI6q0AG/caQl2hN9mA0fdnPiAJ5PW41pq6JMOlRXHPEtV2ISQs1T+pQRYWNN9kpVW0NMPzUC+6+eimeD95f0wDjrco.H1CgMaU9pntXdRB/p3zRttuMX03vsdQgydtqYLSfGdmm4RTKEfXwivHHkNQcdjmbhRGLQFF9pVBv8rklCyTYcjQ6XKZZoYQBLYJ6bcHmE+Cqh1zdg+50Av5jv1c7hbEe">
+<div class="row">
+<div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
+<div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12"> </div>
+</div>
+<div class="dragArea row">
+<div class="col-md-6 col-lg-4 mb-4 form-group" data-for="name">
+<input type="text" name="name" placeholder="Your Name" data-form-field="Name" required="required" class="form-control input display-7" value="" id="name-extForm6-q">
+</div>
+<div class="col-md-6 col-lg-4 mb-4 form-group" data-for="email">
+<input type="text" name="email" placeholder="Email" data-form-field="Email" required="required" class="form-control input display-7" value="" id="email-extForm6-q">
+</div>
+<div class="col-lg-12 col-md-12 col-sm-12 form-group" style="" data-for="textarea">
+<textarea name="textarea" placeholder="Your Message" data-form-field="textarea" class="form-control display-7" id="textarea-extForm6-q"></textarea>
+</div>
+<div class="col-auto mbr-section-btn mb-4"><button type="submit" class="btn btn-bgr btn-form btn-secondary display-4">SEND MESSAGE</button></div>
+</div>
+</form><!--Formbuilder Form-->
+</div>
                 </div>
             </div>
         </div>
@@ -539,11 +544,14 @@
   <script src="assets/facebook-plugin/facebook-script.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
   <script src="assets/wowslider-plugin/wowslider.js"></script>
+  <script src="assets/bootstrapcarouselswipe/bootstrap-carousel-swipe.js"></script>
   <script src="assets/parallax/jarallax.min.js"></script>
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
-  <script src="assets/bootstrapcarouselswipe/bootstrap-carousel-swipe.js"></script>
   <script src="assets/mbr-testimonials-slider/mbr-testimonials-slider.js"></script>
   <script src="assets/mbr-popup-btns/mbr-popup-btns.js"></script>
+  <script src="assets/formstyler/jquery.formstyler.js"></script>
+  <script src="assets/formstyler/jquery.formstyler.min.js"></script>
+  <script src="assets/datepicker/jquery.datetimepicker.full.js"></script>
   <script src="assets/tether/tether.min.js"></script>
   <script src="assets/dropdown/js/nav-dropdown.js"></script>
   <script src="assets/dropdown/js/navbar-dropdown.js"></script>

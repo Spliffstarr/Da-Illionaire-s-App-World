@@ -1487,7 +1487,7 @@ section.lazy-placeholder:after {
 .cid-s5cwSl55KA .form-control:focus,
 .cid-s5cwSl55KA .form-control:hover {
   border: 1px solid #21ff00;
-  background-color: #f5f5f5;
+  background-color: #000000;
 }
 .cid-s5cwSl55KA .form-group {
   margin-bottom: 1rem;
@@ -1507,14 +1507,14 @@ section.lazy-placeholder:after {
 }
 .cid-s5cwSl55KA .jq-selectbox li:hover,
 .cid-s5cwSl55KA .jq-selectbox li.selected {
-  background-color: #f5f5f5;
-  color: #000000;
+  background-color: #000000;
+  color: #ffffff;
 }
 .cid-s5cwSl55KA .jq-selectbox:hover .jq-selectbox__trigger-arrow {
   border-top-color: #000000;
 }
 .cid-s5cwSl55KA .jq-selectbox .jq-selectbox__trigger-arrow {
-  border-top-color: #f5f5f5;
+  border-top-color: #000000;
 }
 .cid-s5cwSl55KA .form-group,
 .cid-s5cwSl55KA .mbr-section-btn {
