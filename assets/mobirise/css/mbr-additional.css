@@ -1889,6 +1889,101 @@ a {
   text-align: center;
   color: #fff500;
 }
+.cid-s93A96tBne {
+  padding-top: 3rem;
+  padding-bottom: 0rem;
+  background-image: url("../../../assets/images/my-page-background-2000x1125.png");
+}
+.cid-s93A96tBne .mbr-section-title {
+  margin-bottom: 26px;
+  font-weight: 300;
+  color: #ffdc00;
+}
+.cid-s93A96tBne .mbr-section-title b,
+.cid-s93A96tBne .mbr-section-title strong {
+  font-weight: 500;
+}
+.cid-s93A96tBne .mbr-text {
+  margin-bottom: 18px;
+}
+.cid-s93A96tBne .row__image {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.cid-s93A96tBne .row__image:nth-child(1) {
+  padding-right: 80px;
+}
+.cid-s93A96tBne .row__image:nth-child(2) {
+  padding-left: 80px;
+}
+.cid-s93A96tBne .image {
+  margin-right: 13px;
+  width: 100%;
+}
+.cid-s93A96tBne .image img {
+  max-width: 100%;
+  object-fit: cover;
+  max-height: 245px;
+  height: auto;
+  max-height: initial;
+}
+.cid-s93A96tBne .link {
+  display: block;
+  margin-bottom: 0;
+  white-space: nowrap;
+}
+.cid-s93A96tBne .link a {
+  font-weight: 700;
+}
+.cid-s93A96tBne .link span {
+  display: inline-block !important;
+  transition: all 0.3s ease;
+  margin-left: 13px;
+}
+.cid-s93A96tBne .link:hover span {
+  transform: translateX(9px);
+}
+@media (max-width: 991px) {
+  .cid-s93A96tBne .row__image {
+    margin-bottom: 9px;
+  }
+  .cid-s93A96tBne .row__image:nth-child(1) {
+    padding-right: 32px;
+  }
+  .cid-s93A96tBne .row__image:nth-child(2) {
+    padding-left: 32px;
+  }
+  .cid-s93A96tBne .title__block {
+    margin-top: 60px;
+  }
+  .cid-s93A96tBne .image {
+    margin-right: 10px;
+    height: auto;
+  }
+  .cid-s93A96tBne .mbr-section-title {
+    margin-bottom: 19px;
+  }
+  .cid-s93A96tBne .mbr-text {
+    margin-bottom: 11px;
+  }
+}
+.cid-s93A96tBne .mbr-text,
+.cid-s93A96tBne .link {
+  color: #ffffff;
+}
+.cid-s93BcANXWW {
+  padding-top: 30px;
+  padding-bottom: 0px;
+  background: linear-gradient(45deg, #ff0017, #000000);
+}
+.cid-s93BcANXWW .btn {
+  margin: 0 0 .5rem 0;
+}
+.cid-s93BcANXWW H2 {
+  text-align: center;
+  color: #fff500;
+}
 .cid-s6vXMVtOBU {
   padding-top: 15px;
   padding-bottom: 30px;
